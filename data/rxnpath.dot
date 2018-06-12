@@ -1,0 +1,150 @@
+digraph reaction_paths {
+center=1;
+s10 -> s9[fontname="Helvetica", style="setlinewidth(4.73)", arrowsize=2.36, color="0.7, 0.686, 0.9"
+, label=" 0.186\l fwd: 0.24\l + H (71%)\l + OH (29%)\l \l rev: 0.0541\l + H2 (77%)\l + H2O (23%)\l"];
+s9 -> s16[fontname="Helvetica", style="setlinewidth(4.5)", arrowsize=2.25, color="0.7, 0.638, 0.9"
+, label=" 0.138\l fwd: 0.138\l + CO2 (3%)\l + O2 (93%)\l + OH (4%)\l \l rev: 2.11e-08\l + CO (58%)\l + H (11%)\l + N (11%)\l + O (20%)\l"];
+s9 -> s17[fontname="Helvetica", style="setlinewidth(3.5)", arrowsize=1.75, color="0.7, 0.536, 0.9"
+];
+s27 -> s9[fontname="Helvetica", style="setlinewidth(2.66)", arrowsize=1.33, color="0.7, 0.512, 0.9"
+];
+s9 -> s8[fontname="Helvetica", style="setlinewidth(2.88)", arrowsize=1.44, color="0.7, 0.516, 0.9"
+];
+s10 -> s14[fontname="Helvetica", style="setlinewidth(4.01)", arrowsize=2.01, color="0.7, 0.572, 0.9"
+];
+s16 -> s14[fontname="Helvetica", style="setlinewidth(5.99)", arrowsize=2.99, color="0.7, 1.49, 0.9"
+, label=" 0.985\l fwd: 1.02\l + CH3 (1%)\l + H (3%)\l + M  (35%)\l + O (1%)\l + O2 (11%)\l + OH (4%)\l \l rev: 0.0355\l + H (55%)\l + H + M  (42%)\l + HO2 (3%)\l"];
+s11 -> s14[fontname="Helvetica", style="setlinewidth(4.2)", arrowsize=2.1, color="0.7, 0.592, 0.9"
+];
+s12 -> s14[fontname="Helvetica", style="setlinewidth(4.74)", arrowsize=2.37, color="0.7, 0.69, 0.9"
+, label=" 0.19\l fwd: 0.19\l + O\l"];
+s14 -> s15[fontname="Helvetica", style="setlinewidth(6)", arrowsize=3, color="0.7, 1.5, 0.9"
+, label=" 1\l fwd: 1.17\l + HO2 (5%)\l + OH (94%)\l \l rev: 0.168\l + CH (2%)\l + CH2(S) (6%)\l + H (92%)\l"];
+s21 -> s14[fontname="Helvetica", style="setlinewidth(2.89)", arrowsize=1.45, color="0.7, 0.516, 0.9"
+];
+s22 -> s14[fontname="Helvetica", style="setlinewidth(4.04)", arrowsize=2.02, color="0.7, 0.575, 0.9"
+];
+s27 -> s14[fontname="Helvetica", style="setlinewidth(4.86)", arrowsize=2.43, color="0.7, 0.722, 0.9"
+, label=" 0.222\l fwd: 0.226\l (+ M) (6%)\l + H (49%)\l + O (19%)\l + O2 (25%)\l \l rev: 0.00384\l + CH (+ M) (52%)\l + CH2(S) (48%)\l"];
+s28 -> s14[fontname="Helvetica", style="setlinewidth(4.05)", arrowsize=2.02, color="0.7, 0.575, 0.9"
+];
+s8 -> s14[fontname="Helvetica", style="setlinewidth(2.84)", arrowsize=1.42, color="0.7, 0.515, 0.9"
+];
+s52 -> s14[fontname="Helvetica", style="setlinewidth(2.16)", arrowsize=1.08, color="0.7, 0.506, 0.9"
+];
+s10 -> s16[fontname="Helvetica", style="setlinewidth(3.4)", arrowsize=1.7, color="0.7, 0.532, 0.9"
+];
+s11 -> s10[fontname="Helvetica", style="setlinewidth(4.92)", arrowsize=2.46, color="0.7, 0.741, 0.9"
+, label=" 0.241\l fwd: 0.623\l \l rev: 0.382\l"];
+s12 -> s10[fontname="Helvetica", style="setlinewidth(4.24)", arrowsize=2.12, color="0.7, 0.597, 0.9"
+];
+s10 -> s17[fontname="Helvetica", style="setlinewidth(4.04)", arrowsize=2.02, color="0.7, 0.574, 0.9"
+];
+s10 -> s15[fontname="Helvetica", style="setlinewidth(4.13)", arrowsize=2.06, color="0.7, 0.584, 0.9"
+];
+s22 -> s10[fontname="Helvetica", style="setlinewidth(3.94)", arrowsize=1.97, color="0.7, 0.565, 0.9"
+];
+s28 -> s10[fontname="Helvetica", style="setlinewidth(3.79)", arrowsize=1.9, color="0.7, 0.554, 0.9"
+];
+s10 -> s24[fontname="Helvetica", style="setlinewidth(2.93)", arrowsize=1.47, color="0.7, 0.517, 0.9"
+];
+s17 -> s16[fontname="Helvetica", style="setlinewidth(5.82)", arrowsize=2.91, color="0.7, 1.28, 0.9"
+, label=" 0.783\l fwd: 0.785\l (+ M) (1%)\l + CH3 (1%)\l + H (52%)\l + O (4%)\l + OH (42%)\l \l rev: 0.00193\l + CH4 (2%)\l + H (+ M) (31%)\l + H2 (39%)\l + H2O (23%)\l + HO2 (3%)\l + OH (1%)\l"];
+s16 -> s15[fontname="Helvetica", style="setlinewidth(2.06)", arrowsize=1.03, color="0.7, 0.505, 0.9"
+];
+s21 -> s16[fontname="Helvetica", style="setlinewidth(2.83)", arrowsize=1.41, color="0.7, 0.515, 0.9"
+];
+s24 -> s16[fontname="Helvetica", style="setlinewidth(2.7)", arrowsize=1.35, color="0.7, 0.513, 0.9"
+];
+s12 -> s11[fontname="Helvetica", style="setlinewidth(5.04)", arrowsize=2.52, color="0.7, 0.781, 0.9"
+, label=" 0.281\l fwd: 0.496\l + H (23%)\l + OH (77%)\l \l rev: 0.215\l + H2 (29%)\l + H2O (71%)\l"];
+s11 -> s17[fontname="Helvetica", style="setlinewidth(3.06)", arrowsize=1.53, color="0.7, 0.52, 0.9"
+];
+s11 -> s18[fontname="Helvetica", style="setlinewidth(2.74)", arrowsize=1.37, color="0.7, 0.513, 0.9"
+];
+s11 -> s20[fontname="Helvetica", style="setlinewidth(3.01)", arrowsize=1.5, color="0.7, 0.519, 0.9"
+];
+s27 -> s11[fontname="Helvetica", style="setlinewidth(4.33)", arrowsize=2.16, color="0.7, 0.609, 0.9"
+, label=" 0.109\l fwd: 0.111\l + H\l \l rev: 0.00184\l + CO\l"];
+s12 -> s17[fontname="Helvetica", style="setlinewidth(5.12)", arrowsize=2.56, color="0.7, 0.81, 0.9"
+, label=" 0.31\l fwd: 0.31\l + O (92%)\l + O2 (3%)\l + OH (5%)\l \l rev: 2.2e-06\l + H\l"];
+s13 -> s12[fontname="Helvetica", style="setlinewidth(5.78)", arrowsize=2.89, color="0.7, 1.24, 0.9"
+, label=" 0.742\l fwd: 1.32\l (+ M) (2%)\l + H (38%)\l + O (14%)\l + OH (46%)\l \l rev: 0.577\l + CH2O (1%)\l + H (+ M) (53%)\l + H2 (22%)\l + H2O (20%)\l + HCO (1%)\l + OH (4%)\l"];
+s12 -> s18[fontname="Helvetica", style="setlinewidth(4.02)", arrowsize=2.01, color="0.7, 0.572, 0.9"
+];
+s12 -> s19[fontname="Helvetica", style="setlinewidth(3.74)", arrowsize=1.87, color="0.7, 0.55, 0.9"
+];
+s12 -> s20[fontname="Helvetica", style="setlinewidth(4.03)", arrowsize=2.01, color="0.7, 0.573, 0.9"
+];
+s28 -> s12[fontname="Helvetica", style="setlinewidth(3.18)", arrowsize=1.59, color="0.7, 0.524, 0.9"
+];
+s12 -> s24[fontname="Helvetica", style="setlinewidth(2.02)", arrowsize=1.01, color="0.7, 0.505, 0.9"
+];
+s12 -> s26[fontname="Helvetica", style="setlinewidth(2.78)", arrowsize=1.39, color="0.7, 0.514, 0.9"
+];
+s52 -> s12[fontname="Helvetica", style="setlinewidth(2.15)", arrowsize=1.08, color="0.7, 0.506, 0.9"
+];
+s18 -> s17[fontname="Helvetica", style="setlinewidth(4.62)", arrowsize=2.31, color="0.7, 0.661, 0.9"
+, label=" 0.161\l fwd: 0.163\l (+ M) (60%)\l + H (2%)\l + O2 (36%)\l + OH (1%)\l \l rev: 0.00157\l + H (+ M) (89%)\l + HO2 (11%)\l"];
+s19 -> s17[fontname="Helvetica", style="setlinewidth(4.15)", arrowsize=2.07, color="0.7, 0.586, 0.9"
+];
+s20 -> s18[fontname="Helvetica", style="setlinewidth(4.02)", arrowsize=2.01, color="0.7, 0.572, 0.9"
+];
+s20 -> s19[fontname="Helvetica", style="setlinewidth(3.48)", arrowsize=1.74, color="0.7, 0.536, 0.9"
+];
+s22 -> s21[fontname="Helvetica", style="setlinewidth(3.51)", arrowsize=1.75, color="0.7, 0.537, 0.9"
+];
+s22 -> s27[fontname="Helvetica", style="setlinewidth(5.06)", arrowsize=2.53, color="0.7, 0.788, 0.9"
+, label=" 0.288\l fwd: 0.29\l + O\l \l rev: 0.00232\l + H\l"];
+s23 -> s22[fontname="Helvetica", style="setlinewidth(4.61)", arrowsize=2.3, color="0.7, 0.658, 0.9"
+, label=" 0.158\l fwd: 0.162\l (+ M) (81%)\l + H (12%)\l + O2 (3%)\l + OH (4%)\l \l rev: 0.00372\l + H (+ M) (99%)\l + HO2 (1%)\l"];
+s22 -> s28[fontname="Helvetica", style="setlinewidth(2.63)", arrowsize=1.31, color="0.7, 0.511, 0.9"
+];
+s24 -> s22[fontname="Helvetica", style="setlinewidth(2.07)", arrowsize=1.03, color="0.7, 0.505, 0.9"
+];
+s28 -> s27[fontname="Helvetica", style="setlinewidth(4.46)", arrowsize=2.23, color="0.7, 0.63, 0.9"
+, label=" 0.13\l fwd: 0.17\l + H (49%)\l + O (4%)\l + OH (48%)\l \l rev: 0.04\l + H2 (57%)\l + H2O (41%)\l + OH (2%)\l"];
+s23 -> s28[fontname="Helvetica", style="setlinewidth(2.31)", arrowsize=1.15, color="0.7, 0.507, 0.9"
+];
+s24 -> s23[fontname="Helvetica", style="setlinewidth(4.73)", arrowsize=2.37, color="0.7, 0.686, 0.9"
+, label=" 0.186\l fwd: 0.219\l + H (62%)\l + OH (38%)\l \l rev: 0.0325\l + CH4 (1%)\l + H (+ M) (15%)\l + H2 (58%)\l + H2O (27%)\l"];
+s23 -> s51[fontname="Helvetica", style="setlinewidth(3.49)", arrowsize=1.74, color="0.7, 0.536, 0.9"
+];
+s51 -> s28[fontname="Helvetica", style="setlinewidth(3.73)", arrowsize=1.86, color="0.7, 0.549, 0.9"
+];
+s25 -> s24[fontname="Helvetica", style="setlinewidth(3.17)", arrowsize=1.58, color="0.7, 0.523, 0.9"
+];
+s24 -> s51[fontname="Helvetica", style="setlinewidth(2.76)", arrowsize=1.38, color="0.7, 0.514, 0.9"
+];
+s26 -> s25[fontname="Helvetica", style="setlinewidth(3.14)", arrowsize=1.57, color="0.7, 0.523, 0.9"
+];
+s25 -> s52[fontname="Helvetica", style="setlinewidth(2.02)", arrowsize=1.01, color="0.7, 0.505, 0.9"
+];
+s52 -> s51[fontname="Helvetica", style="setlinewidth(2.01)", arrowsize=1, color="0.7, 0.505, 0.9"
+];
+s8 [ fontname="Helvetica", label="C"];
+s9 [ fontname="Helvetica", label="CH"];
+s10 [ fontname="Helvetica", label="CH2"];
+s11 [ fontname="Helvetica", label="CH2(S)"];
+s12 [ fontname="Helvetica", label="CH3"];
+s13 [ fontname="Helvetica", label="CH4"];
+s14 [ fontname="Helvetica", label="CO"];
+s15 [ fontname="Helvetica", label="CO2"];
+s16 [ fontname="Helvetica", label="HCO"];
+s17 [ fontname="Helvetica", label="CH2O"];
+s18 [ fontname="Helvetica", label="CH2OH"];
+s19 [ fontname="Helvetica", label="CH3O"];
+s20 [ fontname="Helvetica", label="CH3OH"];
+s21 [ fontname="Helvetica", label="C2H"];
+s22 [ fontname="Helvetica", label="C2H2"];
+s23 [ fontname="Helvetica", label="C2H3"];
+s24 [ fontname="Helvetica", label="C2H4"];
+s25 [ fontname="Helvetica", label="C2H5"];
+s26 [ fontname="Helvetica", label="C2H6"];
+s27 [ fontname="Helvetica", label="HCCO"];
+s28 [ fontname="Helvetica", label="CH2CO"];
+s51 [ fontname="Helvetica", label="CH2CHO"];
+s52 [ fontname="Helvetica", label="CH3CHO"];
+ label = "Scale = 1.4e+04\l Reaction path diagram following C";
+ fontname = "Helvetica";
+}
