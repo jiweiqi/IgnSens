@@ -10,7 +10,7 @@ Efficient approach for evaluating the sensitivity of ignition delay time. Implem
 
 # API 
 
-【Initially, I planed to write an api, later on , I realized that it is unnessary ... But if you find that an api might be useful, you can start from the proposal bellow. 
+Initially, I planed to write an api, later on , I realized that it is unnessary ... But if you find that an api might be useful, you can start from the proposal bellow. 
 
 + idtSens(gas, T, P, X, Type = 'UV', factor = 0.05 )
 
