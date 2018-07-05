@@ -17,3 +17,6 @@ Alternatively, the reaction mechanism .xml file can be passed. [Proposal]
 
 # Demo
 GRImech 3.0 which is included in the Cantera package
+
+# Cite
+Weiqi Ji, Zhuyin Ren, Chung K. Law, Evolution of Sensitivity Directions during Autoignition, Proceedings of the Combustion Instituts, Accepted Manuscript. 2018
