@@ -8,7 +8,9 @@ Efficient approach for evaluating the sensitivity of ignition delay time. Implem
 
 + If you need the absolute value of the sensitvities. You can follow the paper and compute two top sensitive reactions.
 
-# API 【Initially, I planed to write an api, later on , I realized that it is unnessary ... But if you find that an api might be useful, you can start from the proposal bellow. 
+# API 
+
+【Initially, I planed to write an api, later on , I realized that it is unnessary ... But if you find that an api might be useful, you can start from the proposal bellow. 
 
 + idtSens(gas, T, P, X, Type = 'UV', factor = 0.05 )
 
