@@ -1,6 +1,6 @@
 # IgnitionDelaySensitivity
 
-Efficient approach for evaluating the sensitivity of ignition delay time. Implement with Cantera/Python
+Efficient approach for evaluating the sensitivity of ignition delay time. Implement with Cantera/Python. The repo includes the accepted manuscript and the demo codes, including the mechanism files.
 
 # Instruction
 
