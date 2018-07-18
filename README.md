@@ -29,4 +29,4 @@ GRImech 3.0 which is included in the Cantera package
 
 # Cite
 
-Weiqi Ji, Zhuyin Ren, Chung K. Law, Evolution of Sensitivity Directions during Autoignition, Proceedings of the Combustion Instituts, 2018, doi:10.1016/j.proci.2018.07.005 (In production)
+Weiqi Ji, Zhuyin Ren, Chung K. Law, Evolution of Sensitivity Directions during Autoignition, Proceedings of the Combustion Instituts, 2018, doi:10.1016/j.proci.2018.07.005
